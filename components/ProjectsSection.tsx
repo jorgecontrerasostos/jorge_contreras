@@ -6,12 +6,12 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "NASA Daily Photo",
+    name: "NASA Photo of the Day",
     description:
-      "NASA Daily Photo is a web app that, using the NASA API, displays the NASA photo of the day along with its explanation.",
-    image: "/thankfulthoughts.png",
+      "NASA Photo of the Day is a web app that, using the NASA API, displays the NASA photo of the day along with its explanation.",
+    image: "/nasa_photo_of_the_day.png",
     github: "https://github.com/jorgecontrerasostos/nasa-daily-photo",
-    link: "https://thankfulthoughts.io/",
+    link: "https://nasa-daily-photo-eosin.vercel.app/",
   },
   {
     name: "PlatoIO",
