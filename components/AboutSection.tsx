@@ -46,7 +46,7 @@ const AboutSection = () => {
             <p>
               In my free time I enjoy doing a variety of things such as
               listening to music, watching movies, playing softball and hanging
-              out with my friends and girlfriend
+              out with my friends and girlfriend.
             </p>
             <br />
             <p>
