@@ -13,7 +13,15 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          © 2023 Jorge Contreras<a href="/" className="hover:underline"></a>
+          © 2023 Jorge Contreras with the help of Hosna Qasmei&apos;s&nbsp;{" "}
+          <a
+            href="https://www.youtube.com/watch?v=7gnVzj_nMJw&t=783s&ab_channel=HosnaQasmei"
+            target="_blank"
+            rel="noreferrer"
+          >
+            tutorial.
+          </a>
+          <a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
