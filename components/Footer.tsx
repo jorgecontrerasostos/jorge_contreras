@@ -18,6 +18,7 @@ const Footer = () => {
             href="https://www.youtube.com/watch?v=7gnVzj_nMJw&t=783s&ab_channel=HosnaQasmei"
             target="_blank"
             rel="noreferrer"
+            className="hover:text-sky-600"
           >
             tutorial.
           </a>
