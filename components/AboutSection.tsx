@@ -13,6 +13,14 @@ const skills = [
   { skill: "Wordpress" },
   { skill: "GitHub" },
   { skill: "Swift" },
+  { skill: "Team Player" },
+  { skill: "Assertive Communicator" },
+  { skill: "Proactive" },
+  { skill: "Tolerant" },
+  { skill: "Empathic" },
+  { skill: "Responsible" },
+  { skill: "Honest" },
+  { skill: "Easy Going" },
 ];
 
 const AboutSection = () => {
@@ -30,14 +38,6 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Jorge and I&apos;m a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> web developer
-              engineer based in México.
-            </p>
-            <br />
-            <p>
               I graduated from Instituto Tecnológico de Saltillo in 2021 with a
               BS in Computer Systems Engineering and have been working in the
               field ever since.
@@ -50,16 +50,21 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-sky-600">never stop growing</span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              I always try to learn new things and don&apos;t settle. I strongly
+              believe that if you keep on learning and working every day with
+              discipline you can achieve everything you want.
+            </p>
+            <br />
+            <p>
+              As Doc Brown once said:{" "}
+              <span className="text-sky-600 italic font-bold">
+                &quot;If you put your mind into it, you can accomplish
+                anything.&quot;
+              </span>
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+            <h1 className="text-2xl font-bold mb-6">My Hard & Soft Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
@@ -72,13 +77,6 @@ const AboutSection = () => {
                 );
               })}
             </div>
-            <Image
-              src="/hero-image.png"
-              alt=""
-              width={325}
-              height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-            />
           </div>
         </div>
       </div>
