@@ -13,21 +13,6 @@ const projects = [
     github: "https://github.com/jorgecontrerasostos/nasa-daily-photo",
     link: "https://nasa-daily-photo-eosin.vercel.app/",
   },
-  {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
-  },
-  {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
-  },
 ];
 
 const ProjectsSection = () => {
@@ -81,6 +66,9 @@ const ProjectsSection = () => {
           );
         })}
       </div>
+      <h2 className="my-10 text-center text-2xl font-bold">
+        More projects coming soon!
+      </h2>
     </section>
   );
 };
